@@ -1,6 +1,6 @@
 # dtm-se-modular-calculator
 
-A simple calculator toolkit written in Python, with several UIs.
+A simple calculator toolkit written in Python, with several UIs, clone by Giovanni for the sake of exemplifying online committing.
 
 ## Remarks
 
