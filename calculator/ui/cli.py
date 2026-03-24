@@ -1,6 +1,10 @@
 from calculator import Calculator
 import sys
 
+# Questa classe implementa un'interfaccia a riga di comando per la calcolatrice. 
+# L'utente può passare un'espressione matematica come argomento al programma, 
+# e il risultato verrà stampato sulla console. Se l'espressione è invalida, 
+# verrà stampato un messaggio di errore.
 
 class CalculatorCLI:
     def __init__(self, args):

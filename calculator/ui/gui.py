@@ -4,7 +4,9 @@ from kivy.uix.button import Button
 from kivy.uix.label import Label
 from calculator import Calculator
 
-
+# modificata da Lorenzo Fattori, 2024-06-10
+# Questa classe implementa un'interfaccia grafica per la calcolatrice utilizzando Kivy. 
+# L'utente può interagire con la calcolatrice cliccando sui pulsanti,
 BUTTONS_NAMES = [
     ['7', '8', '9', '/'],
     ['4', '5', '6', '*'],
@@ -13,7 +15,11 @@ BUTTONS_NAMES = [
     ['C']
 ]
 
-
+# L'interfaccia è composta da un display per mostrare l'espressione e il risultato,
+# e una griglia di pulsanti per le cifre, le operazioni e il tasto di reset. 
+# Quando l'utente preme un pulsante, l'espressione viene aggiornata di conseguenza, 
+# e quando preme "=", viene calcolato il risultato e mostrato sul display. 
+# Se l'espressione è invalida, viene mostrato un messaggio di errore.
 class CalculatorApp(App):
     def build(self):
         self._calc = Calculator()

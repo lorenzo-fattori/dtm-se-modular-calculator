@@ -1,6 +1,11 @@
 Number = int | float
 
-
+# modificata da Lorenzo Fattori, 2024-06-10
+# Questa classe implementa la logica di una calcolatrice. 
+# La calcolatrice mantiene un'espressione come stringa, e fornisce metodi per aggiungere cifre, 
+# operazioni e il punto decimale all'espressione. 
+# Il metodo compute_result() valuta l'espressione e restituisce il risultato. 
+# Se l'espressione è invalida, viene sollevata un'eccezione con un messaggio di errore.
 class Calculator:
 
     def __init__(self):
